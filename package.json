@@ -1,0 +1,37 @@
+{
+  "name": "koa2-blog-demo",
+  "version": "1.0.0",
+  "description": "基于koa2的博客管理系统，当然使用了我第一次发布的npm包😁",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "start": "npm run dev --development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/songchengen/koa2-blog-demo.git"
+  },
+  "keywords": [
+    "koa2",
+    "koa2-event-router"
+  ],
+  "author": "songchengen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/songchengen/koa2-blog-demo/issues"
+  },
+  "homepage": "https://github.com/songchengen/koa2-blog-demo#readme",
+  "dependencies": {
+    "koa": "^2.5.2",
+    "koa-bodyparser": "^4.2.1",
+    "koa2-event-router": "^1.0.0",
+    "mongoose": "^4.11.12",
+    "ramda": "^0.25.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.1.0",
+    "eslint-config-airbnb-base": "^13.0.0",
+    "eslint-plugin-import": "^2.13.0"
+  }
+}
