@@ -26,7 +26,7 @@
     "koa": "^2.5.2",
     "koa-bodyparser": "^4.2.1",
     "koa2-event-router": "^1.0.0",
-    "mongoose": "^4.11.12",
+    "mongoose": "^5.7.7",
     "ramda": "^0.25.0"
   },
   "devDependencies": {
